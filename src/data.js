@@ -1,0 +1,68 @@
+const list = [
+  {
+    id: 1,
+    name: "Iphone 14" ,
+    price: 200000,
+    img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR9VJgsNm1MeM71c71EcvKxZSXxRDfh0FR1ChT794UeWly_LHJMcG6ULf1tJNGglORPQx5UpDO0UiVQ&usqp=CAc",
+    amount: 1,
+  },
+  {
+    id: 2,
+    name: "MacBook Air" ,
+    price: 86930,
+    img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQB-VNg7E7ASzLt3U9fLD2Ty3OCLKAXW7vVsrU49Ydx78QdWC1SE3g0kZ8vgH0axOInzM1RdObRdug&usqp=CAc",
+    amount: 1,
+  },
+  {
+    id: 3,
+    name: "AirPods Pro" ,
+    price: 23000,
+    img: "data:image/png;base64,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",
+    amount: 1,
+  },
+  {
+    id: 4,
+    name: "boAt Stone 1500 40w Bluetooth Speaker",
+    price: 4500,
+    img: " https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR8dhX41wGAE-4pAbRhYeGwIlHPK6gd5hY3ZP0EFOdV-buT_Bos_q-nwcU0sUyBuR3V3SOEDBAMvPg&usqp=CAc",
+    amount: 1,
+  },
+  {
+    id: 5,
+    name: "Sony Bravia 108 cm (43 Inch) 4K Ultra HD" ,
+    price: 42990,
+    img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT9m1mZRilpwCA-vh9KCy-Vb3V0wot-AoE1_vuJWoDcKPu5SuOGfjPUYI_U72Iq3umgyraMW-4rn6M&usqp=CAc",
+    amount: 1,
+  },
+  {
+    id: 6,
+    name: "RARE RABBIT Men Black Shirt" ,
+    price: 2999,
+    img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQJcOWz11R5Qnq6DvWEWrkfTJ8XMUeMhGPVqTNez1yswCS62FkEb56z-uc0fwLMiGDmZh8T_GHn7b1JEuj7KaxLN8Y_tgImxIFKwl_lNk6mxtCer6J1MhnZOg&usqp=CAc",
+    amount: 1,
+  },
+  {
+    id: 7,
+    name: "Books Rack" ,
+    price: 350,
+    img: "https://images.woodenstreet.de/image/data/book-shelves/cagney-bookshelf-revised/honey/updated/1.jpg",
+    amount: 1,
+  },
+  {
+    id: 8,
+    name: "Customizable Curtain, Cotton - Solid - White" ,
+    price: 575,
+    img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSX7bT2m_p6gh50iEjiXg0nUVLXYNAXfP2ghoEwEyIUrAYA6MXmCFXxuvF8fDC2BY6PJx2hRx0qrQ&usqp=CAc",
+    amount: 1,
+  },
+  {
+    id: 9,
+    name: "Blanket" ,
+    price: 1590,
+    img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS3KcRlsJjFTPUJ9ljcbi75oM_CLDmHEervs4GMY9BmY5W2wV5W1658bUC_Hxfsww&usqp=CAc",
+    amount: 1,
+  },
+  
+];
+
+export default list;
